@@ -132,7 +132,7 @@ public class Controller
 			if (id == 0x4c05e60c)
 				return Gamepads.DualSense;
 
-			if (id == 0x7e050920 || id == 0x7e053003 || id == 0x7e050820 )
+			if (id == 0x7e050920 || id == 0x7e053003 || id == 0x7e050820)
 				return Gamepads.Nintendo;
 
 			return Gamepads.Xbox;
