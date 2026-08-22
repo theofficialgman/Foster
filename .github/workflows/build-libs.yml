@@ -20,6 +20,9 @@ jobs:
           - os: ubuntu-latest
             target: linux-x64
             lib: libSDL3.so
+          - os: ubuntu-22.04-arm
+            target: linux-arm64
+            lib: libSDL3.so
     runs-on: ${{matrix.os}}
     steps:
       - name: Clone SDL3
